@@ -1,7 +1,6 @@
-require "sinatra"
-require "pp"
-require_relative "git_updater"
 require "json"
+require "sinatra"
+require_relative "git_updater"
 
 CONFIG = {
   "Cardistrycon.com" => "/home/deployer/cardistrycon",
