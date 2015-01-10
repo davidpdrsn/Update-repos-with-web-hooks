@@ -12,3 +12,7 @@ post "/" do
   GitUpdater.new(push, CONFIG).update
   ""
 end
+
+get "/" do
+  "Its all good"
+end
