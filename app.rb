@@ -9,6 +9,6 @@ CONFIG = {
 
 post "/" do
   push = JSON.parse(request.body.read)
-  GitUpdater.new(json, CONFIG).update
+  GitUpdater.new(push, CONFIG).update
   ""
 end
