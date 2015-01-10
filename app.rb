@@ -4,7 +4,8 @@ require_relative "git_updater"
 require "json"
 
 CONFIG = {
-  "Cardistrycon.com" => "/Users/davidpdrsn/dotfiles",
+  "Cardistrycon.com" => "/home/deployer/cardistrycon",
+  "Update-repos-with-web-hooks" => "/home/deployer/update_gits",
 }
 
 post "/" do
